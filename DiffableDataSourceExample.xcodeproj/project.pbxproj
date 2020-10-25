@@ -60,17 +60,41 @@
 		8475066425455BBE00BC939C /* DiffableDataSourceExample */ = {
 			isa = PBXGroup;
 			children = (
+				8475068725457B7100BC939C /* Extensions */,
+				8475068525457B6000BC939C /* Controller */,
+				8475068425457B5200BC939C /* Model */,
 				8475066525455BBE00BC939C /* AppDelegate.swift */,
 				8475066725455BBE00BC939C /* SceneDelegate.swift */,
-				8475066925455BBE00BC939C /* ViewController.swift */,
 				8475066E25455BBF00BC939C /* Assets.xcassets */,
 				8475067025455BBF00BC939C /* LaunchScreen.storyboard */,
 				8475067325455BBF00BC939C /* Info.plist */,
+			);
+			path = DiffableDataSourceExample;
+			sourceTree = "<group>";
+		};
+		8475068425457B5200BC939C /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				8475067B25455E3C00BC939C /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8475068525457B6000BC939C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8475066925455BBE00BC939C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8475068725457B7100BC939C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
 				8475067E2545714000BC939C /* UIView+AutoLayout.swift */,
 				847506812545716900BC939C /* AutoLayoutPropertyWrapper.swift */,
 			);
-			path = DiffableDataSourceExample;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

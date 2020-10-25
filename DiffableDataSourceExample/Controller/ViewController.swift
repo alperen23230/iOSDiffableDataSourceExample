@@ -34,8 +34,6 @@ class ViewController: UIViewController, UITableViewDelegate {
         navigationController?.navigationBar.prefersLargeTitles = true
         let navigationBarItemAddImage = UIImage(systemName: "plus")?.withTintColor(.systemPurple, renderingMode: .alwaysOriginal)
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(image:navigationBarItemAddImage, style: .plain, target: self, action: #selector(addItemToList))
-        
-        
         title = "Diffable List"
     }
     
